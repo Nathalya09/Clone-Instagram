@@ -1,0 +1,37 @@
+.story{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 90px;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+}
+
+.section_image{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#c82d8e, #f99d4c);
+}
+
+.image_st{
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    border: 2px solid #FAFAFA;
+}
+
+.text_st{
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 20px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #3C281F;
+}

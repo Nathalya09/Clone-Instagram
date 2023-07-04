@@ -1,0 +1,25 @@
+.opcao{
+    display: flex;
+    width: 14vw;
+    padding: 10px 10px 5px 10px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.opcao:hover{
+    background-color: #efefef;
+}
+
+.opcao_icone{
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.opcao_text{
+    font-size: 15px;
+    margin-left: 12px;
+    cursor: pointer;
+}

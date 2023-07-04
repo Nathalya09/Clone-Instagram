@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: rgb(255, 255, 255);
+}
+
+.corpo {
+  display: flex;
+  height: 100vh;
+  width: 98vw;
+}
+
+.barra-esquerda {
+  width: 16vw;
+  height: 100%;
+}
+
+.barra-direita {
+  width: 30vw;
+  height: 100%;
+}
+
+.conteudo-centro {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}

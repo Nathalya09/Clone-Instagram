@@ -1,0 +1,25 @@
+.perfil{
+    display: flex;
+    width: 14vw;
+    padding: 13px 10px 13px 10px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.perfil:hover{
+    background-color: #efefef;
+}
+
+.perfil_icone{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.perfil_text{
+    font-size: 15px;
+    margin-left: 12px;
+}

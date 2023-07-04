@@ -1,0 +1,53 @@
+.area_rc{
+    display: flex;
+    width: 319px;
+    height: 60px;
+    align-items: center;
+}
+
+.pf_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+}
+
+.pf_image img{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pf_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 206px;
+}
+
+.pf_texto .user{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.pf_texto .nome{
+    color: #737373;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.pf_botao{
+    display: flex;
+    align-items: center;
+}
+
+.pf_botao .botao_mudar{
+    color: #0095F6;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 10px;
+    cursor: pointer;
+}
